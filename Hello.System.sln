@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Hello.System", "src\Hello.System\Hello.System.fsproj", "{620E93CE-795C-492C-9F77-B244264B4E5A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{359218C1-4788-491D-9E5B-B3B7CBB606E7}"
@@ -26,6 +24,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{5F10A924
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello.System.Tests", "src\Hello.System.Tests\Hello.System.Tests.csproj", "{9AABB963-A75F-411D-A2EE-5802FA5FBDEF}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Hello.Host", "Hello.Host\Hello.Host.fsproj", "{AB84D5B9-DBCD-4DE5-9401-99EC28FE258F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Paket", "Paket", "{809E296D-CA9C-43F3-9C30-D473090667FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{9AABB963-A75F-411D-A2EE-5802FA5FBDEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AABB963-A75F-411D-A2EE-5802FA5FBDEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AABB963-A75F-411D-A2EE-5802FA5FBDEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB84D5B9-DBCD-4DE5-9401-99EC28FE258F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB84D5B9-DBCD-4DE5-9401-99EC28FE258F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB84D5B9-DBCD-4DE5-9401-99EC28FE258F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB84D5B9-DBCD-4DE5-9401-99EC28FE258F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,5 @@
 @echo off
 cls
-".nuget\NuGet.exe" "Install" "FAKE" "-OutputDirectory" "packages" "-ExcludeVersion"
+"packages\Paket.1.4.18\tools\paket" "update"
 "packages\FAKE\tools\Fake.exe" build.fsx
 pause
