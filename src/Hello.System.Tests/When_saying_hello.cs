@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using Greetings;
+using NUnit.Framework;
 
 namespace Hello.System.Tests
 {

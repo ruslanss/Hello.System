@@ -1,4 +1,4 @@
-﻿namespace Hello.System
+﻿namespace Greetings
 
 module Greeter =
     let hello = "hi"

@@ -1,5 +1,5 @@
 @echo off
 cls
 ".paket\paket" outdated
-".paket\paket" update -f
+".paket\paket" update
 "packages\FAKE\tools\Fake.exe" build.fsx
