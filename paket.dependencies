@@ -1,6 +1,7 @@
 source https://www.nuget.org/api/v2/
 
 nuget Nuget.CommandLine
+nuget NUnit.Runners
 nuget NUnit 2.6.4 framework: >= net45
 nuget FAKE
 nuget Suave
