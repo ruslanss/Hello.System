@@ -20,6 +20,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{5F10A924-03A2-4710-AA33-4A6E4759D9A9}"
 	ProjectSection(SolutionItems) = preProject
 		ExecuteBatch.cmd = ExecuteBatch.cmd
+		Hello.Host\Program.fs = Hello.Host\Program.fs
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello.System.Tests", "src\Hello.System.Tests\Hello.System.Tests.csproj", "{9AABB963-A75F-411D-A2EE-5802FA5FBDEF}"
@@ -27,6 +28,17 @@ EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Hello.Host", "Hello.Host\Hello.Host.fsproj", "{AB84D5B9-DBCD-4DE5-9401-99EC28FE258F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Paket", "Paket", "{809E296D-CA9C-43F3-9C30-D473090667FE}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{C90B4CE6-E4C2-4785-B413-B1A079FD6571}"
+	ProjectSection(SolutionItems) = preProject
+		.paket\paket.bootstrapper.exe = .paket\paket.bootstrapper.exe
+		.paket\paket.exe = .paket\paket.exe
+		.paket\paket.targets = .paket\paket.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,5 +61,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C90B4CE6-E4C2-4785-B413-B1A079FD6571} = {809E296D-CA9C-43F3-9C30-D473090667FE}
 	EndGlobalSection
 EndGlobal
