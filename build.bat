@@ -1,8 +1,10 @@
 @echo off
 cls
-@echo INSTALLED PACKAGES:
+@echo UPDATING PAKET IF IT NEEDS IT
+".paket\paket.bootstrapper"
+@echo INSTALLED PACKAGES
 ".paket\paket" show-installed-packages
-@echo CHECKING FOR OUTDATED PACKAGES:
+@echo CHECKING FOR OUTDATED PACKAGES
 ".paket\paket" outdated
 @echo STARTING UPDATE
 ".paket\paket" update
